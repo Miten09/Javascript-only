@@ -32,9 +32,9 @@
 //   );
 // }
 
-let DolphinsAverage = (96 + 88 + 89) / 3;
+let DolphinsAverage = (96 + 133 + 89) / 3;
 console.log(DolphinsAverage);
-let koalasAverage = (88 + 88 + 110) / 3;
+let koalasAverage = (88 + 146 + 110) / 3;
 console.log(koalasAverage);
 
 if (
@@ -53,6 +53,12 @@ if (
   console.log(
     `${koalasAverage} value & ${DolphinsAverage} is greater than 100 so Koalas is winner`
   );
+} else if (
+  DolphinsAverage &&
+  koalasAverage >= 100 &&
+  DolphinsAverage == koalasAverage
+) {
+  console.log("score is equal");
 } else {
-  console.log("score is note more than 100");
+  console.log("No one Wins the trophy");
 }
