@@ -32,34 +32,45 @@
 //   );
 // }
 
-let DolphinsAverage = (96 + 133 + 89) / 3;
-console.log(DolphinsAverage);
-let koalasAverage = (88 + 146 + 110) / 3;
-console.log(koalasAverage);
+// let DolphinsAverage = (96 + 133 + 89) / 3;
+// console.log(DolphinsAverage);
+// let koalasAverage = (88 + 146 + 110) / 3;
+// console.log(koalasAverage);
 
-if (
-  DolphinsAverage &&
-  koalasAverage >= 100 &&
-  DolphinsAverage > koalasAverage
-) {
-  console.log(
-    `${koalasAverage} value & ${DolphinsAverage} is greater than 100 so Dolphin is winner`
-  );
-} else if (
-  DolphinsAverage &&
-  koalasAverage >= 100 &&
-  DolphinsAverage < koalasAverage
-) {
-  console.log(
-    `${koalasAverage} value & ${DolphinsAverage} is greater than 100 so Koalas is winner`
-  );
-} else if (
-  DolphinsAverage &&
-  koalasAverage >= 100 &&
-  DolphinsAverage == koalasAverage
-) {
-  console.log("score is equal");
-} else {
-  console.log("No one Wins the trophy");
-  
-}
+// if (
+//   DolphinsAverage &&
+//   koalasAverage >= 100 &&
+//   DolphinsAverage > koalasAverage
+// ) {
+//   console.log(
+//     `${koalasAverage} value & ${DolphinsAverage} is greater than 100 so Dolphin is winner`
+//   );
+// } else if (
+//   DolphinsAverage &&
+//   koalasAverage >= 100 &&
+//   DolphinsAverage < koalasAverage
+// ) {
+//   console.log(
+//     `${koalasAverage} value & ${DolphinsAverage} is greater than 100 so Koalas is winner`
+//   );
+// } else if (
+//   DolphinsAverage &&
+//   koalasAverage >= 100 &&
+//   DolphinsAverage == koalasAverage
+// ) {
+//   console.log("score is equal");
+// } else {
+//   console.log("No one Wins the trophy");
+// }
+
+// let bill = 40;
+
+// //console.log(Totalvalue)
+
+// let tipValue = bill > 50 && bill < 300 ? bill * 0.15 : bill * 0.2;
+
+// console.log(
+//   `The bill was ${bill} , the tip was ${tipValue} & the total value is ${
+//     bill + tipValue
+//   }`
+// );
