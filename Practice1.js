@@ -61,4 +61,5 @@ if (
   console.log("score is equal");
 } else {
   console.log("No one Wins the trophy");
+  
 }
